@@ -12,6 +12,11 @@ The reward/punishment is then applied to each of those moves
 This project uses the Julia Language, along with Jupyter Notebook. Both of these need to be installed for the program to work.
 After downloading the file, open Jupyter Notebook and then the file
 
+## Usage
+Run all cells on Jupyter Notebook. Once the iterations are complete, you can type in a line of the following form: "println(episode(policy, 0, true, [[<whiteKingRowNum>, <whiteKingColNum>], [<whiteQueenRowNum>, <whiteQueenColNum>], [<BlackKingRowNum>, <BlackKingColNum>]])"
+Example:
+println(episode(policy, 0, true, [[6, 5], [8, 5], [3, 4]]), true)
+
 
 ## Acknowledgements
 - Inspired by my love of chess :)
