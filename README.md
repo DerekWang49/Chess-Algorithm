@@ -7,6 +7,12 @@ White's move would be based on the policy that is passed in (list of best known 
 Each position that results from a move is added to a list of positions for each position.
 The reward/punishment is then applied to each of those moves
 
+
+## Installation Instructions
+This project uses the Julia Language, along with Jupyter Notebook. Both of these need to be installed for the program to work.
+After downloading the file, open Jupyter Notebook and then the file
+
+
 ## Acknowledgements
 - Inspired by my love of chess :)
 - Monte Carlo Simulations learned from IE 3013 at the University of Minnesota
