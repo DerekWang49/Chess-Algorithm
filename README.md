@@ -17,6 +17,10 @@ Run all cells on Jupyter Notebook. Once the iterations are complete, you can typ
 Example:
 println(episode(policy, 0, true, [[6, 5], [8, 5], [3, 4]]), true)
 
+## Features
+Running the main program will save the known optimal move set for each legal position King and Queen vs King legal position.
+There is an option as explained above to simulate an episode. Here are the parameters to pass in for episode: episode(policy, ϵ=0.05, board_display=false, position=nothing, outcome=false, move_reward=false). ϵ stands for error rate, so if you want a simulation based completely on the policy, you would select 0. To display the board, set board_display equal to true. If you want to run an episode without updating the policy, set outcome equal to true). move_reward is a diagnostic tool that can be kept as false.
+
 
 ## Acknowledgements
 - Inspired by my love of chess :)
